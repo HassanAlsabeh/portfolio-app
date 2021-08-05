@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Experience 1",
+    "image": "https://cdn.iconscout.com/icon/free/png-512/mongodb-2-1175137.png",
+    "desc": "Short descreption about experience 1",
+    "ctaText": "Go 1",
+    "rating": "9.2"
+  },
+  {
+    "id": 2,
+    "title": "Experience 2",
+    "image":"https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png",
+    "desc": "Short descreption about experience 2",
+    "ctaText": "Go 2",
+    "rating": "7.9"
+  },
+  {
+    "id": 3,
+    "title": "Experience 3",
+    "image": "https://icons-for-free.com/iconfiles/png/512/logo+react+react+js+icon-1320184811840217251.png",
+    "desc": "Short descreption about experience 4",
+    "ctaText": "Go 3",
+    "rating": "8.6"
+  }
+]

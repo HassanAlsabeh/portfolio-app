@@ -1,0 +1,200 @@
+// .card1s {
+//     display: flex;
+//     flex-direction: row;
+//   }
+//   .title-bar {
+//     display: inline-block;
+//     position: relative;
+//   }
+  
+//   .container1 {
+//     width: 70%;
+//     margin: 10% auto;
+//     display: flex;
+//     justify-content: space-evenly;
+//     flex-direction: row ;
+//   }
+  
+//   // Simple Line Lite
+  
+//   .card1 {
+//     position: relative;
+//     margin: 1em;
+//     background: black;
+  
+//     &::before,
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: 1.25em;
+//       bottom: 1.25em;
+//       left: 1.25em;
+//       right: 1.25em;
+//     }
+//     &::before {
+//       transform: scale(0, 1);
+//       transition: transform ease-out 250ms;
+//       border-top: 1px solid white;
+//       border-bottom: 1px solid white;
+//     }
+//     &::after {
+//       transform: scale(1, 0);
+//       transition: transform ease-out 250ms;
+//       border-left: 1px solid white;
+//       border-right: 1px solid white;
+//     }
+//     &:hover::before {
+//       transform: scale(1.05, 1);
+//     }
+//     &:hover:after {
+//       transform: scale(1, 1.05);
+//     }
+//   }
+//   .card1-img {
+//     width: 100%;
+//     display: block;
+//     transition: opacity ease-out 250ms;
+//     opacity: 1;
+//   }
+//   .card1:hover .card1-img {
+//     opacity: 0.4;
+//   }
+//   .card1-text {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     color: white;
+//     transition: opacity ease-out 250ms;
+//     opacity: 0;
+//   }
+//   .card1:hover .card1-text {
+//     opacity: 1;
+//   }
+  
+//   // Fat-Line Dark
+  
+//   .card1-2 {
+//     position: relative;
+//     margin: 1em;
+//     background: black;
+  
+//     &::before,
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: 1.25em;
+//       bottom: 1.25em;
+//       left: 1.25em;
+//       right: 1.25em;
+//     }
+//     &::before {
+//       transform: scale(0, 1);
+//       transition: transform ease-out 250ms;
+//       border-top: 5px solid white;
+//       border-bottom: 5px solid white;
+//     }
+//     &::after {
+//       transform: scale(0, 1);
+//       transition: transform ease-out 250ms;
+//       border-left: 5px solid white;
+//       border-right: 5px solid white;
+//     }
+//     &:hover::before {
+//       transform: scale(1, 1);
+//     }
+//     &:hover:after {
+//       transform: scale(1, 1);
+//     }
+//   }
+//   .card1-2:hover .card1-text {
+//     opacity: 1;
+//   }
+//   .card1-2:hover .card1-img {
+//     opacity: 0.1;
+//   }
+  
+//   // Color Gradient
+//   .card1-3 {
+//     position: relative;
+//     margin: 1em;
+//     background: linear-gradient(35deg, #ff8080, #006633);
+  
+//     &::before,
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       top: 1.25em;
+//       bottom: 1.25em;
+//       left: 1.25em;
+//       right: 1.25em;
+//     }
+//     &::before {
+//       transform: scale(0, 0);
+//       transition: transform ease-out 250ms;
+//       border-top: 2.5px solid white;
+//       border-bottom: 2.5px solid white;
+//     }
+//     &::after {
+//       transform: scale(0, 0);
+//       transition: transform ease-out 250ms;
+//       border-left: 2.5px solid white;
+//       border-right: 2.5px solid white;
+//     }
+//     &:hover::before {
+//       transform: scale(1, 1);
+//     }
+//     &:hover:after {
+//       transform: scale(1, 1);
+//     }
+//   }
+//   .card1-3:hover .card1-text {
+//     opacity: 1;
+//   }
+//   .card1-3:hover .card1-img {
+//     opacity: 0.5;
+//   }
+  
+//   // card1 Text Inside Lower Box
+//   .card1-4 {
+//     position: relative;
+//     margin: 1em;
+//     background: white;
+  
+//     &::after {
+//       content: "";
+//       position: absolute;
+//       bottom: 10%;
+//       left: 50px;
+//       right: 0px;
+//     }
+//     &::after {
+//       transform: scale(1, 0);
+//       transition: transform ease-out 250ms;
+//       border-bottom: 60px solid black;
+//       z-index: 0;
+//       opacity: 0;
+//     }
+//     &:hover:after {
+//       transform: scale(1, 1);
+//       opacity: 0.8;
+//     }
+//   }
+//   .card1-4:hover .card1-img {
+//     opacity: 0.8;
+//   }
+//   .card1-text-4 {
+//     position: absolute;
+//     line-height: 0.3em;
+//     text-align: left;
+//     bottom: 10%;
+//     left: 15%;
+//     color: white;
+//     transform: scale(0, 0);
+//     transition: transform ease-out 250ms;
+//     z-index: 1;
+//   }
+//   .card1-4:hover .card1-text-4 {
+//     transform: scale(1, 1);
+//   }
+  
